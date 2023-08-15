@@ -27,7 +27,6 @@ namespace ApplicationServices.Entities
         public string Sex { get; set; }
         public int Age { get; private set; }
         public string Country { get; private set; }
-        public ClassCategory Class { get; private set; }
         public List<Class> ListOfClasses { get; } = new List<Class>();
 
         public Teacher SetFirstname(string name)
@@ -45,7 +44,7 @@ namespace ApplicationServices.Entities
             Age = age;
             return this;
         }
-        public Teacher SetStudentNo(int number)
+        public Teacher SetStaffNo(string number)
         {
             var cfg = $"{Firstname}={number}";
             return this;
@@ -55,11 +54,16 @@ namespace ApplicationServices.Entities
             Country = country;
             return this;
         }
+
+        /*public Teacher SetClassCategory(ClassCategory clas)
+        {
+            
+        }*/
         public class Factory
         {
-            public static Teacher Build(Guid id, string studentNo, string firstname, string lastname, int age, string country)
+            public static Teacher Build(Guid id, string staffNo, string firstname, string lastname, int age, string country)
             {
-                return new Teacher(id, firstname, lastname, age, country, studentNo);
+                return new Teacher(id, firstname, lastname, age, country, staffNo);
             }
             public static Teacher Build()
             {

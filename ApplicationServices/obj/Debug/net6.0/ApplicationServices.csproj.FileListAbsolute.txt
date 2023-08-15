@@ -1,0 +1,14 @@
+C:\Projects\Havillah-SchoolManagement_System\ApplicationServices\bin\Debug\net6.0\ApplicationServices.deps.json
+C:\Projects\Havillah-SchoolManagement_System\ApplicationServices\bin\Debug\net6.0\ApplicationServices.dll
+C:\Projects\Havillah-SchoolManagement_System\ApplicationServices\bin\Debug\net6.0\ApplicationServices.pdb
+C:\Projects\Havillah-SchoolManagement_System\ApplicationServices\obj\Debug\net6.0\ApplicationServices.csproj.AssemblyReference.cache
+C:\Projects\Havillah-SchoolManagement_System\ApplicationServices\obj\Debug\net6.0\ApplicationServices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Havillah-SchoolManagement_System\ApplicationServices\obj\Debug\net6.0\ApplicationServices.AssemblyInfoInputs.cache
+C:\Projects\Havillah-SchoolManagement_System\ApplicationServices\obj\Debug\net6.0\ApplicationServices.AssemblyInfo.cs
+C:\Projects\Havillah-SchoolManagement_System\ApplicationServices\obj\Debug\net6.0\ApplicationServices.csproj.CoreCompileInputs.cache
+C:\Projects\Havillah-SchoolManagement_System\ApplicationServices\obj\Debug\net6.0\ApplicationServices.dll
+C:\Projects\Havillah-SchoolManagement_System\ApplicationServices\obj\Debug\net6.0\refint\ApplicationServices.dll
+C:\Projects\Havillah-SchoolManagement_System\ApplicationServices\obj\Debug\net6.0\ApplicationServices.pdb
+C:\Projects\Havillah-SchoolManagement_System\ApplicationServices\obj\Debug\net6.0\ref\ApplicationServices.dll
+C:\Projects\Havillah-SchoolManagement_System\ApplicationServices\bin\Debug\net6.0\ApplicationServices.runtimeconfig.json
+C:\Projects\Havillah-SchoolManagement_System\ApplicationServices\obj\Debug\net6.0\ApplicationServices.genruntimeconfig.cache

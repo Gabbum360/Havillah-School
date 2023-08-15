@@ -11,7 +11,6 @@ namespace ApplicationServices.Entities
     {
         public int Id { get; set; }
         public string Alias { get; set; }
-        public Teacher TeacherId { get; set; }
-        public ClassCategory ClassCategory { get; set; }
+        public Teacher? TeacherId { get; set; }
     }
 }

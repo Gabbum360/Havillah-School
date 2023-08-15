@@ -11,11 +11,12 @@ namespace ApplicationServices.Entities
     {
         private Student() {}
 
-        public Student(Guid id, string firstname, string lastname, int age, string country, string studentNo)
+        public Student(Guid id, string firstname, string lastname,string sex, int age, string country, string studentNo)
         {
             Id = id;
             Firstname = firstname;
             Lastname = lastname;
+            Sex = sex;
             Age = age;  
             Country = country;
             StudentNo = studentNo;
@@ -57,9 +58,9 @@ namespace ApplicationServices.Entities
         }
         public class Factory
         {
-            public static Student Build(Guid id, string studentNo, string firstname, string lastname, int age, string country)
+            public static Student Build(Guid id, string studentNo, string firstname, string lastname, string sex, int age, string country)
             {
-                return new Student(id, firstname, lastname, age, country, studentNo);
+                return new Student(id, firstname, lastname, sex, age, country, studentNo);
             }
             public static Student Build()
             {
